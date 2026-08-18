@@ -10,5 +10,5 @@ body{
     color:var(--cor-texto);
     align-items: center;
     justify-self: center;
-    min-height: 100vh;
+    min-height: 10vh;
 }
