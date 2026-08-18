@@ -10,7 +10,9 @@ body{
     color:var(--cor-texto);
     align-items: center;
     justify-self: center;
-    min-height: 5000vh;
+<<<<<<< HEAD
+    min-height: 100vh;
+=
 
 }
 .caixa-principal{
