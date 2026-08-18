@@ -13,8 +13,8 @@ body{
     min-height: 100vh;
 
 }
-.classe-principal{
-    background-color: var(--cor-principal);
+button{
+    background-color: var(--cor-secundaria);
     color: var(--cor-texto);
     border: none;
     border-radius: 15px;
