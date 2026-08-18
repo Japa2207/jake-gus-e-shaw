@@ -1,3 +1,12 @@
+const caixaPrincipal = document.querySelector(".caixa-principal")
+const caixaPerguntas = document.querySelector(".caixa-perguntas")
+const caixaAlternativas = document.querySelector(".caixa-alternativas")
+const caixaResultados = document.querySelector(".caixa-resultados")
+const textoResultados = document.querySelector(".texto-resultado")
+
+
+
+
 const perguntas = [
             {
                 enunciado: "No sofá da casa do parque, Mordecai e Rigby veem na TV um novo chat de Inteligência Artificial capaz de responder qualquer dúvida, criar imagens insanas e imitar vozes. Qual o primeiro pensamento?",
