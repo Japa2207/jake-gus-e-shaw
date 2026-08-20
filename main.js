@@ -89,4 +89,4 @@ const perguntas = [
 
         }
 mostraPergunta()
-    eduardo.otramario
+    
