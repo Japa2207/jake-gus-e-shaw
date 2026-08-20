@@ -88,4 +88,4 @@ const perguntas = [
         caixasPerguntas.textContent =perguntaAtual.enunciado
 
         }
-mostraPergunta()
+mostraPergunta() 
