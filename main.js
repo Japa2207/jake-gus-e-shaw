@@ -88,5 +88,5 @@ const perguntas = [
         caixasPerguntas.textContent =perguntasAtual
 
         }
-mostraPerguntas()
+mostraPergunta()
     
