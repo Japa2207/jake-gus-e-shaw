@@ -87,6 +87,6 @@ const perguntas = [
         perguntaAtual = pergunta[atual]
         caixasPerguntas.textContent =perguntasAtual
 
-}
-
+        }
+mostraPerguntas()
     
