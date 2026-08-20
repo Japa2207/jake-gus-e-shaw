@@ -84,7 +84,7 @@ const perguntas = [
                 mostraResultado()
        return
             }     
-        perguntaAtual = pergunta[atual]
+        perguntaAtual = perguntas[atual]
         caixasPerguntas.textContent =perguntaAtual.enunciado
 
         }
