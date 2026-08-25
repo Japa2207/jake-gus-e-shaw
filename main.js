@@ -92,7 +92,19 @@ for  (const alternativa of perguntaAtual.alternativas){
     const botaoAlternativas = document.creatElement("button")
     botaoAlternativas.textContent = alternativa.texto
     botaoAlternativas.addEventLister("click",  ()=> respostasSelecionada(alternativa))
+    caixaAlternativas.appendChild(botaoAlternativas)
 }
+        }
+        function respostasSelecionada(opcaoSelecionada){
+            const afirmacoes = opcaoSelecionada.afirmacao
+            historiaFinal += afirmacoes + ""
+            atual++
+
+            function mostraResultado(){
+                caixaPerguntas.textContent + "Em 2049 ..."
+                textoResultado.textContent = historiaFinal
+                caixaAlternativas.textContent = "";
+            }
         }
     
   mostraPergunta()  
