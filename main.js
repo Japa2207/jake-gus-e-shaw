@@ -85,11 +85,13 @@ const perguntas = [
        return
             }     
         perguntaAtual = perguntas[atual]
-        caixaPerguntas.textContent =perguntaAtual.enunciado
+        caixaPerguntas.textContent ="";
         mostraAlternativas()
         function mostraAlternativas{
 for  (const alternativa of perguntaAtual.alternativas){
     const botaoAlternativas = document.creatElement("button")
+    botaoAlternativas.textContent = alternativa.texto
+    botaoAlternativas.addEventLister("click",  ()=> respostasSelecionada(alternativa))
 }
         }
     
