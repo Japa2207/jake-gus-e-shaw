@@ -99,6 +99,7 @@ for  (const alternativa of perguntaAtual.alternativas){
             const afirmacoes = opcaoSelecionada.afirmacao
             historiaFinal += afirmacoes + ""
             atual++
+            mostraPergunta()
 
             function mostraResultado(){
                 caixaPerguntas.textContent + "Em 2049 ..."
