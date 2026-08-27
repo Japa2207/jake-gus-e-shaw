@@ -110,11 +110,5 @@ for  (const alternativa of perguntaAtual.alternativas){
                 caixaAlternativas.textContent = "";
             }
         }
-    
+    -   }   
   mostraPergunta()  
-    
-    }
-
-       
-       
-mostraPergunta()
