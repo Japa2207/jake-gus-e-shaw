@@ -90,7 +90,7 @@ const perguntas = [
         mostraAlternativas()
       }
      
-        function mostraAlternativas{
+        function mostraAlternativas(){
 for  (const alternativa of perguntaAtual.alternativas){
     const botaoAlternativas = document.creatElement("button")
     botaoAlternativas.textContent = alternativa.texto
@@ -98,6 +98,7 @@ for  (const alternativa of perguntaAtual.alternativas){
     caixaAlternativas.appendChild(botaoAlternativas)
 }
         }
+
         function respostasSelecionada(opcaoSelecionada){
             const afirmacoes = opcaoSelecionada.afirmacao
             historiaFinal += afirmacoes + ""
@@ -110,4 +111,6 @@ for  (const alternativa of perguntaAtual.alternativas){
                 caixaAlternativas.textContent = "";
             }
         }
+
+        
   mostraPergunta()  
