@@ -117,4 +117,4 @@ for  (const alternativa of perguntaAtual.alternativas){
 
        
        
-        mostraPergunta() 
+mostraPergunta()
