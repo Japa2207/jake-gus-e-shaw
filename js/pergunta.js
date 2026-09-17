@@ -1,4 +1,4 @@
-const perguntas = [
+export const perguntas = [
     {
         enunciado: "No sofá da casa do parque, Mordecai e Rigby veem na TV um novo chat de Inteligência Artificial capaz de responder qualquer dúvida, criar imagens insanas e imitar vozes. Qual o primeiro pensamento?",
         alternativas: [
