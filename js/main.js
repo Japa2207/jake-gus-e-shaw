@@ -5,7 +5,8 @@ const caixaPerguntas = document.querySelector(".caixa-perguntas")
 const caixaAlternativas = document.querySelector(".caixa-alternativas")
 const caixaResultados = document.querySelector(".caixa-resultados")
 const textoResultado = document.querySelector(".texto-resultado")
-    
+const botaoIniciar = document.querySelector(".iniciar-btn")
+const telaInicial = document.querySelector(".tela-inicial")
 const perguntas = [
     {
         enunciado: "No sofá da casa do parque, Mordecai e Rigby veem na TV um novo chat de Inteligência Artificial capaz de responder qualquer dúvida, criar imagens insanas e imitar vozes. Qual o primeiro pensamento?",
@@ -108,6 +109,16 @@ const perguntas = [
         let perguntaAtual;
         let historiaFinal = ""
         
+        botaoIniciar.addEventListener("click", imiciaJogo)
+        
+        function iniciarjogo(){
+            atual = 0;
+            historiaFinal = ""
+            telaInicial.style.display = "none"
+            caixaPerguntas.classList.remove("mostrar")
+            caixaAlternativas.classList.remove("mostrar")
+            caixaResultados.classList.remove("mostrar")
+        }
         function mostraPergunta() {
             if(atual >= perguntas.length){
                 mostraResultado()
