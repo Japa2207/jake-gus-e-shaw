@@ -127,10 +127,9 @@ const perguntas = [
         perguntaAtual = perguntas[atual]
         caixaPerguntas.textContent ="";
          caixaAlternativas.textContent=""
-        mostraAlternativas(
-        ]
+        mostraAlternativas()
+
     }
-];
 
         let atual = 0;
         let perguntaAtual;
