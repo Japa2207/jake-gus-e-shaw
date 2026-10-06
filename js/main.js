@@ -127,7 +127,30 @@ const perguntas = [
         perguntaAtual = perguntas[atual]
         caixaPerguntas.textContent ="";
          caixaAlternativas.textContent=""
-        mostraAlternativas()
+        mostraAlternativas(
+        ]
+    }
+];
+
+        let atual = 0;
+        let perguntaAtual;
+        let historiaFinal = ""
+        
+        botaoIniciar.addEventListener("click", imiciaJogo)
+        
+        function iniciarjogo(){
+            atual = 0;
+            historiaFinal = ""
+            telaInicial.style.display = "none"
+            caixaPerguntas.classList.remove("mostrar")
+            caixaAlternativas.classList.remove("mostrar")
+            caixaResultados.classList.remove("mostrar")
+            mostraPergunta()
+        }
+        function mostraPergunta() {
+            if(atual >= per
+
+            )
       }
      
         function mostraAlternativas(){
